@@ -49,10 +49,10 @@ This project demonstrates the design and analysis of a three-stage audio amplifi
 ### Stage-wise Performance:
 | Stage | Input | Output | Gain | Phase Relationship |
 |-------|-------|--------|------|-------------------|
-| Stage 1 (Preamplifier) | 10mV | 123.16mV | 12.316 | Same phase |
-| Stage 2 (Filter) | 123.16mV | 1.6075V | 11.048 | - |
-| Stage 3 (Power Amp) | 10mV | 3.9149V | 2.4354 | - |
-| **Overall Circuit** | **10mV** | **3.8337V** | **383.37** | - |
+| Stage 1 (Preamplifier) | 10mV | 123.16mV | 12.316 | Phase Difference of 180 degrees |
+| Stage 2 (Filter) | 123.16mV | 1.6075V | 11.048 | Same phase |
+| Stage 3 (Power Amp) | 10mV | 3.9149V | 2.4354 | Phase Difference of 180 degrees |
+| **Overall Circuit** | **10mV** | **3.8337V** | **383.37** | Same Phase |
 
 ### Capacitor Placement Rationale:
 - **Output Capacitor:** Blocks DC voltage while allowing AC signals, preventing DC offset from reaching output
